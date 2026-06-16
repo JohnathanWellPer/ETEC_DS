@@ -1,0 +1,55 @@
+/* =========================================
+   CONFIGURAÇÃO FLEXBOX - LAYOUT PRINCIPAL
+   ========================================= */
+#container-flex {
+    display: flex; /* Ativa o modelo flexível */
+    justify-content: space-around; /* Espaça as 3 colunas por igual */
+    flex-wrap: wrap; /* Permite quebrar linha caso a tela seja muito pequena */
+    padding: 20px;
+}
+
+/* =========================================
+   USO DE CLASSES (Padronização)
+   ========================================= */
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%; /* Três colunas ocupando 30% da tela cada */
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1); /* Efeito de sombra elegante */
+    text-align: center;
+}
+
+.img-padrao {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 8px; /* Arredonda as bordas das imagens */
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.4;
+    margin-top: 15px;
+}
+
+/* =========================================
+   USO DE IDs (Estilos específicos)
+   ========================================= */
+/* Cores únicas para o título de cada seção */
+#filmes h2 {
+    color: #e74c3c; /* Vermelho */
+    margin-bottom: 10px;
+}
+
+#musica h2 {
+    color: #3498db; /* Azul */
+    margin-bottom: 10px;
+}
+
+#games h2 {
+    color: #2ecc71; /* Verde */
+    margin-bottom: 10px;
+}
